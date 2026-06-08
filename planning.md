@@ -11,7 +11,7 @@
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
 
----
+The domain that I chose is "reviews of CS department at Rice University". This knowledge is valuable for those applying to Rice University's CS department and what to know what they are getting themselves into.
 
 ## Documents
 
@@ -20,16 +20,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 |Rate My Professors |indivdual reviews of professors from students |https://www.ratemyprofessors.com/search/professors/799?q=*&did=11 |
+| 2 |Reddit |experience of CS from current and previous students |https://www.reddit.com/r/riceuniversity/comments/ttd93h/how_is_overall_computer_science_experience_at_rice/ |
+| 3 |Academic Jobs |more information on the CS department |https://www.academicjobs.com/rate-my-professor/rice-university/5067 |
+| 4 |Quora |potential professor reccomendations for first  year |https://www.quora.com/Which-professors-would-you-recommend-people-take-classes-from-at-Rice-University |
+| 5 |Rice Edu |Rice University's own information on the CS department |https://ga.rice.edu/programs-study/departments-programs/engineering/computer-science/ |
+| 6 |Facebook |Rice's Facebook page where they post events |https://www.facebook.com/RiceCS/ |
+| 7 |Quora |describing what jobs look like after attending Rice from previous students |https://www.quora.com/Is-it-worth-it-to-go-to-Rice-for-computer-science-grad-school-What-are-the-job-prospects-after-attending-Rice-as-well-as-the-return-on-investment |
+| 8 |Reddit |life after attending Rice |https://www.reddit.com/r/riceuniversity/comments/j1pbre/postgraduation_destinations/ |
+| 9 |GradCafe |students considering Rice's PhD program after they complete their bachelors |https://forum.thegradcafe.com/topic/16994-has-anybody-heard-from-rice-univ-cs-phd-program/ |
+| 10 |Linkedin |information on other people who've attended Rice and what offers they have |https://www.linkedin.com/company/ricecs/ |
 
 ---
 
@@ -41,11 +41,11 @@
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
 **Chunk size:**
-
+300 Tokens
 **Overlap:**
-
+30 Tokens
 **Reasoning:**
-
+Just learned that around 200-300 tokens is suffcient enough for quick paragraphs. So, I settled on 300 tokens as majority of my resources are responses from people that are around 1-3 paragraphs. A small overlap is there to ensure no context is lost for those responses that drag on for longer than they should.
 ---
 
 ## Retrieval Approach
@@ -57,11 +57,11 @@
      support, accuracy on domain-specific text, latency? -->
 
 **Embedding model:**
-
+all-MiniLM-L6-v2 via sentence-transformers
 **Top-k:**
-
+3
 **Production tradeoff reflection:**
-
+Not even sure what possible other embedding models there are or what they even are. But, if the embedding model I've already chosen does the bare minimum then more is not needed. Mainly because the information isn't much to decipher to begin with. Multilingual support is not needed as most of the posts are from English websites. 
 ---
 
 ## Evaluation Plan
@@ -73,11 +73,11 @@
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 |Is Devika Subramanian a decent professor for my first semester? |She is a solid professor as majority of students rated her at least a 3. |
+| 2 |Is there grade inflation  within Rice at all, or is it extremely difficult?  |Not really, but with collaboration of you and other students you can get by. |
+| 3 |Who is the department chair of the CS department and their contact information? |The department chair is Christopher M. Jermaine and their method of contact is through email: christopher.m.jermaine@rice.edu. |
+| 4 |What's the most recent workshop they've held for students? |Rice University is hosting the Crossroads of AI & Society Workshop at the Rice Global Paris Center, July 15-16, 2026 in Paris, France. |
+| 5 |Is Rice University's CS department worth it for grad school in terms of job prospects? |Students and alumni reflect positively on job prospects, noting strong research opportunities. |
 
 ---
 
@@ -88,9 +88,9 @@
      retrieval, chunks that split key information across boundaries. -->
 
 1.
-
+There are many pop-ups that may appear from some of these sites which may result in issues with proper retrieval.
 2.
-
+The information might not  be what they were looking for exactly which may lead to responses being off.
 ---
 
 ## Architecture
@@ -101,7 +101,7 @@
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
 
----
+![Pipeline Sketch](firstpipelinediagram.png)
 
 ## AI Tool Plan
 
@@ -116,7 +116,8 @@
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
-
+Plan to use Claude. Hope to give texts from the short paragraphs from the URLs. The chunking plan was to use 300 token chunks with a 30 token overlap to achieve within boundary answers. 
 **Milestone 4 — Embedding and retrieval:**
-
+Use all-MiniLM-L6-v2 via sentence-transformers and store vectors in ChromaDB. This will be done through Claude. The answered will be verified through the 5 questions I already thought of prior.
 **Milestone 5 — Generation and interface:**
+Give the test questions and compare afterwards through the usage chunks gathered by Claude.
