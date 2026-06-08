@@ -1,0 +1,526 @@
+Computer Science
+Overview
+Undergraduate
+Graduate
+Faculty
+Courses
+Codes
+Computer Science
+https://www.cs.rice.edu/
+3122 Duncan Hall
+713-348-4834
+
+Christopher M. Jermaine
+Department Chair
+christopher.m.jermaine@rice.edu
+
+Alan L. Cox
+Associate Department Chair
+alc@rice.edu
+
+Rebecca Schreib
+Director, Undergraduate Studies
+rjs@rice.edu
+
+T. S. Eugene Ng
+Director, Graduate Studies
+eugeneng@rice.edu
+
+Scott Rixner
+Director, Professional Studies
+rixner@rice.edu
+
+Computer science is concerned with the study of computers and computing, focusing on algorithms, programs and programming, and computational systems. The main goal of the discipline is to build a systematic body of knowledge, theories, and models that explain the properties of computational systems and to show how this body of knowledge can be used to produce solutions to real-world computational problems.
+
+Computer science is the intellectual discipline underlying information technology, which is widely accepted now as the ascendant technology of the next century. Students in computer science at Rice benefit from the latest in equipment and ideas as well as the flexibility of the educational programs. The research interests of the faculty include algorithms and complexity, artificial intelligence and robotics, compilers, distributed and parallel computation, graphics and visualization, computer vision and pattern recognition, natural language processing, machine learning, and artificial intelligence, operating systems, and programming languages.
+
+The department offers two undergraduate degrees: the Bachelor of Arts (BA) degree and the Bachelor of Science in Computer Science (BSCS) degree. It also houses and oversees the Bachelor of Science (BS) degree with a major in Artificial Intelligence.
+
+At the graduate level, the department offers a PhD degree as well as two master’s degrees: the professional Master of Computer Science (MCS) degree, the professional Master of Data Science (MDS) degree, and the research-oriented Master of Science (MS) degree. 
+
+The MCS and MDS degrees are professional degrees for students intending to pursue a technical career. Both have an on-premise and a fully online option. Students are admitted directly into one or the other option and cannot switch between the two, but the resulting degree is the same.
+The MS degree is a research degree requiring a thesis in addition to coursework. The MS degree is primarily for students pursuing their PhD. Typically, students are not admitted directly to the MS program. Students wishing to pursue a terminal master's degree should apply to the MCS program.
+Students wishing to pursue a PhD should apply directly to the PhD program. 
+
+
+Bachelor of Science (BS) Degree with a Major in Artificial Intelligence
+Outcomes
+Requirements
+Policies
+Opportunities
+Program Learning Outcomes for the BS Degree with a Major in Artificial Intelligence
+Upon completing the BS degree with a major in Artificial Intelligence, students will be able to:
+
+Apply advanced mathematical concepts (calculus, linear algebra, probability, and statistics) to solve artificial intelligence problems.
+Design and implement artificial intelligence algorithms and models to address complex computational challenges.
+Evaluate the performance and limitations of artificial intelligence systems using appropriate metrics and testing methodologies.
+Analyze ethical implications and incorporate responsible AI practices in system development.
+
+Requirements for the BS Degree with a Major in Artificial Intelligence
+For general university requirements, see Graduation Requirements. Students pursuing the BS degree with a major in Artificial Intelligence must complete:
+
+A minimum of 20 courses (67-68 credit hours, depending on course selection) to satisfy major requirements.
+A minimum of 120 credit hours to satisfy degree requirements.
+A minimum of 9 courses (33 credit hours) taken at the 300-level or above.
+A maximum of 5 courses (20 credit hours) from study abroad or transfer credit after matriculation at Rice may be applied towards specific major requirements. For additional departmental guidelines regarding transfer credit, see the Policies tab.
+The BS degree with a major in artificial intelligence is designed for students who are interested in an in-depth study of artificial intelligence. It is designed to provide students with a set of analytical and technical skills that will enable them to develop computational models that aim to replicate various aspects of human intelligence. The undergraduate program consists of required math courses; computer science core courses; artificial intelligence core courses; and artificial intelligence electives, which give students the freedom to explore specific interests within the domain of artificial intelligence.
+
+The courses listed below satisfy the requirements for this major. In certain instances, courses not on this official list may be substituted upon approval of the major’s academic advisor or, where applicable, the department's Director of Undergraduate Studies. (Course substitutions must be formally applied and entered into Degree Works by the major's Official Certifier.) Students and their academic advisors should identify and clearly document the courses to be taken. 
+
+Summary
+Course List
+Code	Title	Credit Hours
+Total Credit Hours Required for the Major in Artificial Intelligence	67-68
+Total Credit Hours Required for the BS Degree with a Major in Artificial Intelligence	120
+Degree Requirements
+Course List
+Code	Title	Credit Hours
+Core Requirements	
+Mathematics	
+MATH 101	SINGLE VARIABLE CALCULUS I	3
+or MATH 105	AP/OTH CREDIT IN CALCULUS I
+MATH 102	SINGLE VARIABLE CALCULUS II	3
+or MATH 106	AP/OTH CREDIT IN CALCULUS II
+Linear Algebra	
+Select 1 course from the following:	3
+CMOR 302
+MATRIX ANALYSIS	
+CMOR 303
+MATRIX ANALYSIS FOR DATA SCIENCE	
+MATH 221
+HONORS CALCULUS III	
+MATH 354
+HONORS LINEAR ALGEBRA	
+MATH 355
+LINEAR ALGEBRA	
+Statistics	
+STAT 315 / DSCI 301	PROBABILITY AND STATISTICS FOR DATA SCIENCE	4
+Computer Science	
+COMP 140	COMPUTATIONAL THINKING	4
+COMP 182	ALGORITHMIC THINKING	4
+COMP 215	INTRODUCTION TO PROGRAM DESIGN	4
+COMP 222	INTRODUCTION TO COMPUTER ORGANIZATION	4
+COMP 282	COMPUTATIONAL OPTIMIZATION FOR AI	3
+Artificial Intelligence	
+COMP 329	SYSTEMS FOR ARTIFICAL INTELLIGENCE	3
+COMP 345 Foundations of Machine Learning	3
+COMP 346	INTRODUCTION TO ARTIFICAL INTELLIGENCE	3
+COMP 348	INTRODUCTION TO DEEP LEARNING	3
+COMP 456 AI Senior Design I	4
+COMP 457 AI Senior Design II	4
+PHIL 108	ETHICS OF ARTIFICIAL INTELLIGENCE	3
+PSYC 203	INTRODUCTION TO COGNITIVE PSYCHOLOGY	3
+Elective Requirements	
+Select 1 course (3 credit hours) from 3 of the following 5 Artificial Intelligence Elective areas	9-10
+Artificial Intelligence Theory	
+COMP 409
+LOGIC AND COMPUTER SCIENCE AND ARTIFICIAL INTELLIGENCE	
+COMP 414
+OPTIMIZATION: ALGORITHMS, COMPLEXITY AND APPROXIMATIONS	
+COMP 480
+PROBABILISTIC ALGORITHMS AND DATA STRUCTURE	
+COMP 585
+PROBABILISTIC TOOLKIT FOR LEARNING AND COMPUTING	
+Cognitive Psychology	
+PSYC 430
+COMPUTATIONAL MODELING OF COGNITIVE PROCESSES	
+PSYC 468
+HUMAN FACTORS IN ARTIFICIAL INTELLIGENCE	
+Knowledge and Graphs	
+COMP 459
+MACHINE LEARNING WITH GRAPHS	
+COMP 631
+INTRODUCTION TO INFORMATION RETRIEVAL	
+Perception and Language	
+COMP 447 / ELEC 447
+INTRODUCTION TO COMPUTER VISION	
+COMP 484
+NATURAL LANGUAGE PROCESSING	
+Robotics and Autonomy	
+COMP 442
+REINFORCEMENT LEARNING	
+COMP 450 / ELEC 450 / MECH 450
+ALGORITHMIC AND AI-DRIVEN ROBOTICS	
+COMP 462
+INTRODUCTION TO MODERN ROBOTICS	
+Total Credit Hours Required for the Major in Artificial Intelligence	67-68
+Additional Credit Hours to Complete Degree Requirements *	21-22
+University Graduation Requirements *	31
+Total Credit Hours	120
+Footnotes and Additional Information
+*	
+Note: University Graduation Requirements include 31 credit hours, comprised of Distribution Requirements (Groups I, II, and III), FWIS, and LPAP coursework. In some instances, courses satisfying FWIS or distribution requirements may additionally meet other requirements, such as the Analyzing Diversity (AD) requirement, or some of the student’s declared major, minor, or certificate requirements. Additional Credit Hours to Complete Degree Requirements include general electives, coursework completed as upper-level, residency (hours taken at Rice), and/or any other additional academic program requirements.
+
+Policies for the BS Degree with a Major in Artificial Intelligence
+Transfer Credit 
+For Rice University’s policy regarding transfer credit, see Transfer Credit. Some departments and programs have additional restrictions on transfer credit. Requests for transfer credit must be approved for Rice equivalency by the designated transfer credit advisor for the appropriate academic department offering the Rice equivalent course (corresponding to the subject code of the course content). The Office of Academic Advising maintains the university’s official list of transfer credit advisors on their website: https://oaa.rice.edu. Students are encouraged to meet with the applicable transfer credit advisor as well as their academic program director when considering transfer credit possibilities. 
+
+Program Transfer Credit Guidelines
+Students pursuing the major in Artificial Intelligence should be aware of the following program-specific transfer credit guidelines:
+
+No more than 5 courses (20 credit hours) of transfer credit from U.S. or international universities of similar standing as Rice may apply towards specific major requirements after matriculation at Rice.
+Additional Information 
+For additional information, please see the Computer Science website: https://www.cs.rice.edu/.
+Opportunities for the BS Degree with a Major in Artificial Intelligence
+Academic Honors
+The university recognizes academic excellence achieved over an undergraduate’s academic history at Rice. For information on university honors, please see Latin Honors (summa cum laude, magna cum laude, and cum laude) and Distinction in Research and Creative Work. Some departments have department-specific Honors awards or designations.
+
+Fifth-Year Master's Degree Option for Rice Undergraduate Students 
+In certain situations and with some terminal master's degree programs, Rice students have an option to pursue a master’s degree by adding an additional fifth year to their four years of undergraduate studies.
+
+Advanced Rice undergraduate students in good academic standing typically apply to the master’s degree program during their junior or senior year. Upon acceptance, depending on course load, financial aid status, and other variables, they may then start taking some required courses of the master's degree program. A plan of study will need to be approved by the student's undergraduate major advisor and the master’s degree program director.
+
+As part of this option and opportunity, Rice undergraduate students:
+
+must complete the requirements for a bachelor's degree and the master's degree independently of each other (i.e. no course may be counted toward the fulfillment of both degrees).
+should be aware there could be financial aid implications if the conversion of undergraduate coursework to that of graduate level reduces their earned undergraduate credit for any semester below that of full-time status (12 credit hours).
+more information on this Undergraduate - Graduate Concurrent Enrollment opportunity, including specific information on the registration process can be found here.
+Additional Information 
+For additional information, please see the Computer Science website: https://www.cs.rice.edu/.
+
+Bachelor of Science in Computer Science (BSCS) Degree
+Outcomes
+Requirements
+Policies
+Opportunities
+Program Learning Outcomes for the BSCS Degree
+Upon completing the BSCS degree, students will be able to:
+
+Be knowledgeable about algorithms and their use. Students will analyze new problems, choose appropriate algorithms for their solutions, and develop analytical skills in the manipulation of algorithms.
+Demonstrate the ability to design and implement complex software systems. Students will demonstrate skill in their design and implementation and function effectively in teams.
+Be knowledgeable about programming languages and their use. Students will demonstrate an understanding of distinguishing and mapping two different programming languages.
+Communicate effectively to a client and user. 
+Be knowledgeable in three different subareas of Computer Science (systems, application domains, and theory). Students will be able to explain issues in each subarea and demonstrate a depth of knowledge. 
+
+Requirements for the BSCS Degree
+For general university requirements, see Graduation Requirements. Students pursuing the BSCS degree must complete:
+
+A minimum of 20 courses (68-72 credit hours, depending on course selection) to satisfy major requirements.
+A minimum of 120 credit hours to satisfy degree requirements.
+A minimum of 12 courses (40-44 credit hours, depending on course selection) taken at the 300-level or above.
+A maximum of 5 courses (20 credit hours) from study abroad or transfer credit after matriculation at Rice may be applied towards specific major requirements. For additional departmental guidelines regarding transfer credit, see the Policies tab.
+The BSCS degree is designed for students who are interested in an in-depth study of computer science to prepare themselves for a professional career in the computing industry.
+
+The courses listed below satisfy the requirements for this major. In certain instances, courses not on this official list may be substituted upon approval of the major’s academic advisor or, where applicable, the department's Director of Undergraduate Studies. (Course substitutions must be formally applied and entered into Degree Works by the major's Official Certifier.) Students and their academic advisors should identify and clearly document the courses to be taken. 
+
+Summary
+Course List
+Code	Title	Credit Hours
+Total Credit Hours Required for the Major in Computer Science	68-72
+Total Credit Hours Required for the BSCS Degree	120
+Degree Requirements
+Course List
+Code	Title	Credit Hours
+Core Requirements	
+Math Courses 1	
+MATH 101	SINGLE VARIABLE CALCULUS I	3
+or MATH 105	AP/OTH CREDIT IN CALCULUS I
+MATH 102	SINGLE VARIABLE CALCULUS II	3
+or MATH 106	AP/OTH CREDIT IN CALCULUS II
+MATH 212	MULTIVARIABLE CALCULUS	3
+or MATH 222	HONORS CALCULUS IV
+or MATH 232	HONORS MULTIVARIABLE CALCULUS
+Select 1 course from the following:	3-4
+ELEC 303
+RANDOM SIGNALS IN ELECTRICAL ENGINEERING SYSTEMS	
+STAT 310 / ECON 307
+PROBABILITY AND STATISTICS	
+STAT 311
+HONORS PROBABILITY AND MATHEMATICAL STATISTICS	
+STAT 312
+PROBABILITY & STATISTICS FOR ENGINEERS	
+STAT 315 / DSCI 301
+PROBABILITY AND STATISTICS FOR DATA SCIENCE	
+Select 1 course from the following:	3
+CMOR 302
+MATRIX ANALYSIS	
+CMOR 303
+MATRIX ANALYSIS FOR DATA SCIENCE	
+MATH 221
+HONORS CALCULUS III	
+MATH 354
+HONORS LINEAR ALGEBRA	
+MATH 355
+LINEAR ALGEBRA	
+Computer Science Courses	
+COMP 140	COMPUTATIONAL THINKING	4
+COMP 182	ALGORITHMIC THINKING	4
+COMP 215	INTRODUCTION TO PROGRAM DESIGN	4
+COMP 222	INTRODUCTION TO COMPUTER ORGANIZATION	4
+COMP 301	COMPUTER ETHICS	3
+COMP 312	INTRODUCTION TO PROGRAMMING LANGUAGES	3
+COMP 318	CONCURRENT PROGRAM DESIGN	4
+COMP 321	INTRODUCTION TO COMPUTER SYSTEMS	4
+COMP 382	REASONING ABOUT ALGORITHMS	4
+Design Requirement	
+Select 1 course from the following:	4
+COMP 402
+PRODUCTION PROGRAMMING	
+COMP 410
+SOFTWARE ENGINEERING METHODOLOGY	
+COMP 413
+DISTRIBUTED PROGRAM CONSTRUCTION	
+COMP 416
+GENOME-SCALE ALGORITHMS AND DATA STRUCTURES	
+COMP 460 / ARTS 460
+ADVANCED COMPUTER GAME CREATION	
+COMP 461
+SENIOR DESIGN IN A ROBOTIZED WORLD	
+Breadth Requirements	
+Systems	
+Select 1 course from the following:	3-4
+COMP 412
+COMPILER CONSTRUCTION FOR UNDERGRADUATE STUDENTS	
+COMP 421 / ELEC 421
+OPERATING SYSTEMS AND CONCURRENT PROGRAMMING	
+COMP 422
+PARALLEL COMPUTING	
+COMP 427
+INTRODUCTION TO COMPUTER SECURITY	
+COMP 429 / ELEC 429
+INTRODUCTION TO COMPUTER NETWORKS	
+COMP 432
+DATABASE SYSTEM IMPLEMENTATION	
+COMP 436 / ELEC 410
+SECURE AND CLOUD COMPUTING	
+COMP 458
+QUANTUM COMPUTING SYSTEMS	
+Application Domains	
+Select 1 course from the following:	3-4
+COMP 418
+IOT PROGRAMMING AND DATA ANALYSIS	
+COMP 431
+WEB DEVELOPMENT	
+COMP 440 / ELEC 440
+ARTIFICIAL INTELLIGENCE	
+COMP 442
+REINFORCEMENT LEARNING	
+COMP 447 / ELEC 447
+INTRODUCTION TO COMPUTER VISION	
+COMP 450 / ELEC 450 / MECH 450
+ALGORITHMIC AND AI-DRIVEN ROBOTICS	
+COMP 459
+MACHINE LEARNING WITH GRAPHS	
+COMP 462
+INTRODUCTION TO MODERN ROBOTICS	
+COMP 471
+MODELING AND INFERENCE IN COMPUTATIONAL GENOMICS	
+COMP 484
+NATURAL LANGUAGE PROCESSING	
+Theory	
+Select 1 course from the following:	3-4
+COMP 409
+LOGIC AND COMPUTER SCIENCE AND ARTIFICIAL INTELLIGENCE	
+COMP 411
+PRINCIPLES OF PROGRAMMING LANGUAGES	
+COMP 414
+OPTIMIZATION: ALGORITHMS, COMPLEXITY AND APPROXIMATIONS	
+COMP 423
+INTRODUCTION TO MATHEMATICAL CRYPTOGRAPHY	
+COMP 448 / MATH 448
+CONCRETE MATHEMATICS	
+COMP 463
+COMPUTER GRAPHICS	
+COMP 475
+TOOLKITS FOR THEORY OF QUANTUM COMPUTING SCIENCE	
+COMP 480
+PROBABILISTIC ALGORITHMS AND DATA STRUCTURE	
+COMP 481
+AUTOMATA, FORMAL LANGUAGES, AND COMPUTABILITY	
+Elective Requirements	
+Select 2 courses from departmental (COMP) course offerings (a minimum of 3 credit hours each) at the 300-level or above 2	6
+Total Credit Hours Required for the Major in Computer Science	68-72
+Additional Credit Hours to Complete Degree Requirements *	17-21
+University Graduation Requirements *	31
+Total Credit Hours	120
+Footnotes and Additional Information 
+*	
+Note: University Graduation Requirements include 31 credit hours, comprised of Distribution Requirements (Groups I, II, and III), FWIS, and LPAP coursework. In some instances, courses satisfying FWIS or distribution requirements may additionally meet other requirements, such as the Analyzing Diversity (AD) requirement, or some of the student’s declared major, minor, or certificate requirements. Additional Credit Hours to Complete Degree Requirements include general electives, coursework completed as upper-level, residency (hours taken at Rice), and/or any other additional academic program requirements.
+
+1	
+Typically, the Math courses are taken during the freshman and sophomore years.
+
+2	
+At most 1 elective may be an independent study project (COMP 390, COMP 490, or COMP 491). Students may take courses at the 500-level. However, the only 600-level courses that may be used as electives are COMP 631 and COMP 646. 
+
+Policies for the BSCS Degree 
+Program Restrictions and Exclusions
+Students pursuing the BSCS degree should be aware of the following program restriction:
+
+As noted in Majors, Minors, and Certificates, under Declaring Majors, Minors and Certificates, students may not obtain both a BA and a BS in the same major. Students pursuing the Bachelor of Science in Computer Science (BSCS) Degree may not additionally pursue the BA Degree with a Major in Computer Science.
+Transfer Credit 
+For Rice University’s policy regarding transfer credit, see Transfer Credit. Some departments and programs have additional restrictions on transfer credit. Requests for transfer credit must be approved for Rice equivalency by the designated transfer credit advisor for the appropriate academic department offering the Rice equivalent course (corresponding to the subject code of the course content). The Office of Academic Advising maintains the university’s official list of transfer credit advisors on their website: https://oaa.rice.edu. Students are encouraged to meet with the applicable transfer credit advisor as well as their academic program director when considering transfer credit possibilities. 
+
+Departmental Transfer Credit Guidelines 
+Students pursuing the BSCS degree should be aware of the following departmental transfer credit guidelines:
+
+All courses taken after matriculation at Rice and used for transfer credit must meet the following restrictions:
+Such courses must have been offered as part of a regionally accredited four-year degree program in Computer Science at a U.S. or international college or university of similar standing.
+Massive open online courses, continuing education courses, and courses designed solely for online degree programs will not be accepted.
+No more than 5 courses (20 credit hours) may apply towards major requirements.
+No more than 3 courses (12 credit hours) may apply towards the “Computer Science Courses” section of the Core Requirements.
+No more than 2 courses (8 credit hours) may apply towards upper-level coursework within the “Computer Science Courses” section of the Core Requirements.
+No more than 1 courses (4 credit hours) may apply towards the Breadth Requirement.
+Additional Information 
+For additional information, please see the Computer Science website: https://www.cs.rice.edu/
+Opportunities for the BSCS Degree
+Academic Honors
+The university recognizes academic excellence achieved over an undergraduate’s academic history at Rice. For information on university honors, please see Latin Honors (summa cum laude, magna cum laude, and cum laude) and Distinction in Research and Creative Work. Some departments have department-specific Honors awards or designations.
+
+Fifth-Year Master's Degree Option for Rice Undergraduate Students 
+In certain situations and with some terminal master's degree programs, Rice students have an option to pursue a master’s degree by adding an additional fifth year to their four years of undergraduate studies.
+
+Advanced Rice undergraduate students in good academic standing typically apply to the master’s degree program during their junior or senior year. Upon acceptance, depending on course load, financial aid status, and other variables, they may then start taking some required courses of the master's degree program. A plan of study will need to be approved by the student's undergraduate major advisor and the master’s degree program director.
+
+As part of this option and opportunity, Rice undergraduate students:
+
+must complete the requirements for a bachelor's degree and the master's degree independently of each other (i.e. no course may be counted toward the fulfillment of both degrees).
+should be aware there could be financial aid implications if the conversion of undergraduate coursework to that of graduate level reduces their earned undergraduate credit for any semester below that of full-time status (12 credit hours).
+more information on this Undergraduate - Graduate Concurrent Enrollment opportunity, including specific information on the registration process can be found here.
+Rice undergraduate students completing studies in science and engineering may have the option to pursue the Master of Computer Science (MCS) degree. For additional information, students should contact their undergraduate major advisor and the MCS program director. 
+
+Additional Information 
+For additional information, please see the Computer Science website: https://www.cs.rice.edu/.
+
+Bachelor of Arts (BA) Degree with a Major in Computer Science
+Outcomes
+Requirements
+Policies
+Opportunities
+Program Learning Outcomes for the BA Degree with a Major in Computer Science
+Upon completing the BA degree with a major in Computer Science, students will be able to:
+
+Be knowledgeable about algorithms and their use. Students will analyze new problems, choose appropriate algorithms for their solutions, and develop analytical skills in the manipulation of algorithms.
+Demonstrate the ability to design and implement complex software systems. Students will demonstrate skill in their design and implementation and function effectively in teams.
+Be knowledgeable about programming languages and their use. Students will demonstrate an understanding of distinguishing and mapping two different programming languages.
+Communicate effectively to a client and user.
+
+Requirements for the BA Degree with a Major in Computer Science
+For general university requirements, see Graduation Requirements. Students pursuing the BA degree with a major in Computer Science must complete:
+
+A minimum of 17 courses (59-60 credit hours, depending on course selection) to satisfy major requirements.
+A minimum of 120 credit hours to satisfy degree requirements.
+A minimum of 9 courses (33 credit hours) taken at the 300-level or above.
+A maximum of 5 courses (20 credit hours) from study abroad or transfer credit after matriculation at Rice may be applied towards specific major requirements. For additional departmental guidelines regarding transfer credit, see the Policies tab.
+The undergraduate program in computer science has been designed to accommodate a wide range of student interests. The program is sufficiently flexible for a student to customize it to a student's interests. A student can develop a broad educational program that couples computer science education with a variety of other fields in engineering, natural sciences, the humanities, or social sciences. Alternatively, a program might be designed for a student preparing for graduate study in computer science or for a career in computing and information technology.
+
+The undergraduate program consists of required math courses; computer science core courses, including introductory courses and upper-level courses ensuring knowledge in a broad range of areas; and computer science electives, which give students the freedom to explore specific interests.
+
+The courses listed below satisfy the requirements for this major. In certain instances, courses not on this official list may be substituted upon approval of the major’s academic advisor or, where applicable, the department's Director of Undergraduate Studies. (Course substitutions must be formally applied and entered into Degree Works by the major's Official Certifier.) Students and their academic advisors should identify and clearly document the courses to be taken. 
+
+Summary
+Course List
+Code	Title	Credit Hours
+Total Credit Hours Required for the Major in Computer Science	59-60
+Total Credit Hours Required for the BA Degree with a Major in Computer Science	120
+Degree Requirements
+Course List
+Code	Title	Credit Hours
+Core Requirements	
+Math Courses 1	
+MATH 101	SINGLE VARIABLE CALCULUS I	3
+or MATH 105	AP/OTH CREDIT IN CALCULUS I
+MATH 102	SINGLE VARIABLE CALCULUS II	3
+or MATH 106	AP/OTH CREDIT IN CALCULUS II
+MATH 212	MULTIVARIABLE CALCULUS	3
+or MATH 222	HONORS CALCULUS IV
+or MATH 232	HONORS MULTIVARIABLE CALCULUS
+Select 1 course from the following:	3-4
+ELEC 303
+RANDOM SIGNALS IN ELECTRICAL ENGINEERING SYSTEMS	
+STAT 310 / ECON 307
+PROBABILITY AND STATISTICS	
+STAT 311
+HONORS PROBABILITY AND MATHEMATICAL STATISTICS	
+STAT 312
+PROBABILITY & STATISTICS FOR ENGINEERS	
+STAT 315 / DSCI 301
+PROBABILITY AND STATISTICS FOR DATA SCIENCE	
+Select 1 course from the following:	3
+CMOR 302
+MATRIX ANALYSIS	
+CMOR 303
+MATRIX ANALYSIS FOR DATA SCIENCE	
+MATH 221
+HONORS CALCULUS III	
+MATH 354
+HONORS LINEAR ALGEBRA	
+MATH 355
+LINEAR ALGEBRA	
+Computer Science Courses	
+COMP 140	COMPUTATIONAL THINKING	4
+COMP 182	ALGORITHMIC THINKING	4
+COMP 215	INTRODUCTION TO PROGRAM DESIGN	4
+COMP 222	INTRODUCTION TO COMPUTER ORGANIZATION	4
+COMP 301	COMPUTER ETHICS	3
+COMP 312	INTRODUCTION TO PROGRAMMING LANGUAGES	3
+COMP 318	CONCURRENT PROGRAM DESIGN	4
+COMP 321	INTRODUCTION TO COMPUTER SYSTEMS	4
+COMP 382	REASONING ABOUT ALGORITHMS	4
+Design Requirement	
+Select 1 course from the following:	4
+COMP 402
+PRODUCTION PROGRAMMING	
+COMP 410
+SOFTWARE ENGINEERING METHODOLOGY	
+COMP 413
+DISTRIBUTED PROGRAM CONSTRUCTION	
+COMP 416
+GENOME-SCALE ALGORITHMS AND DATA STRUCTURES	
+COMP 460 / ARTS 460
+ADVANCED COMPUTER GAME CREATION	
+COMP 461
+SENIOR DESIGN IN A ROBOTIZED WORLD	
+Elective Requirements	
+Select 2 courses from departmental (COMP) course offerings (a minimum of 3 semester credit hours each) at the 300-level or above 2	6
+Total Credit Hours Required for the Major in Computer Science	59-60
+Additional Credit Hours to Complete Degree Requirements *	29-30
+University Graduation Requirements *	31
+Total Credit Hours	120
+Footnotes and Additional Information 
+*	
+Note: University Graduation Requirements include 31 credit hours, comprised of Distribution Requirements (Groups I, II, and III), FWIS, and LPAP coursework. In some instances, courses satisfying FWIS or distribution requirements may additionally meet other requirements, such as the Analyzing Diversity (AD) requirement, or some of the student’s declared major, minor, or certificate requirements. Additional Credit Hours to Complete Degree Requirements include general electives, coursework completed as upper-level, residency (hours taken at Rice), and/or any other additional academic program requirements.
+
+1	
+Typically, the Math Courses are taken during the freshman and sophomore years.
+
+2	
+At most 1 of these 2 courses may be an independent study project (COMP 390, COMP 490, or COMP 491). Students may take courses at the 500-level. However, the only 600-level courses that may be used as electives are COMP 631 and COMP 646. 
+
+Policies for the BA Degree with a Major in Computer Science
+Program Restrictions and Exclusions
+Students pursuing the BA Degree with a Major in Computer Science should be aware of the following program restriction:
+
+As noted in Majors, Minors, and Certificates, under Declaring Majors, Minors and Certificates, students may not obtain both a BA and a BS in the same major. Students pursuing the BA Degree with a Major in Computer Science may not additionally pursue the Bachelor of Science in Computer Science (BSCS) Degree. 
+Transfer Credit 
+For Rice University’s policy regarding transfer credit, see Transfer Credit. Some departments and programs have additional restrictions on transfer credit. Requests for transfer credit must be approved for Rice equivalency by the designated transfer credit advisor for the appropriate academic department offering the Rice equivalent course (corresponding to the subject code of the course content). The Office of Academic Advising maintains the university’s official list of transfer credit advisors on their website: https://oaa.rice.edu. Students are encouraged to meet with the applicable transfer credit advisor as well as their academic program director when considering transfer credit possibilities. 
+
+Departmental Transfer Credit Guidelines 
+Students pursuing the major in Computer Science should be aware of the following departmental transfer credit guidelines:
+
+All courses taken after matriculation at Rice and used for transfer credit must meet the following restrictions:
+Such courses must have been offered as part of a regionally accredited four-year degree program in Computer Science at a U.S. or international college or university of similar standing.
+Massive open online courses, continuing education courses, and courses designed solely for online degree programs will not be accepted.
+No more than 5 courses (20 credit hours) may apply towards major requirements.
+No more than 3 courses (12 credit hours) may apply towards the “Computer Science Courses” section of the Core Requirements.
+No more than 2 courses (8 credit hours) may apply towards upper-level coursework within the “Computer Science Courses” section of the Core Requirements.
+Additional Information 
+For additional information, please see the Computer Science website: https://www.cs.rice.edu/.
+Opportunities for the BA Degree with a Major in Computer Science
+Academic Honors
+The university recognizes academic excellence achieved over an undergraduate’s academic history at Rice. For information on university honors, please see Latin Honors (summa cum laude, magna cum laude, and cum laude) and Distinction in Research and Creative Work. Some departments have department-specific Honors awards or designations.
+
+Fifth-Year Master's Degree Option for Rice Undergraduate Students 
+In certain situations and with some terminal master's degree programs, Rice students have an option to pursue a master’s degree by adding an additional fifth year to their four years of undergraduate studies.
+
+Advanced Rice undergraduate students in good academic standing typically apply to the master’s degree program during their junior or senior year. Upon acceptance, depending on course load, financial aid status, and other variables, they may then start taking some required courses of the master's degree program. A plan of study will need to be approved by the student's undergraduate major advisor and the master’s degree program director.
+
+As part of this option and opportunity, Rice undergraduate students:
+
+must complete the requirements for a bachelor's degree and the master's degree independently of each other (i.e. no course may be counted toward the fulfillment of both degrees).
+should be aware there could be financial aid implications if the conversion of undergraduate coursework to that of graduate level reduces their earned undergraduate credit for any semester below that of full-time status (12 credit hours).
+more information on this Undergraduate - Graduate Concurrent Enrollment opportunity, including specific information on the registration process can be found here.
+Rice undergraduate students completing studies in science and engineering may have the option to pursue the Master of Computer Science (MCS) degree. For additional information, students should contact their undergraduate major advisor and the MCS program director. 
+
+Additional Information 
+For additional information, please see the Computer Science website: https://www.cs.rice.edu/.

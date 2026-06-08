@@ -1,0 +1,132 @@
+The Rice CS department is very highly rated - top 20. Has been for, well, 36 years and change since its formation. The faculty are excellent but it’s a small department. If you have a research interest that’s not represented, you’d do well to look elsewhere as that’s not likely to change.
+
+It is, as a friend likes to say, “well known by them that knows”. Your average Joe on the street (outside of Texas and select parts of the Bay Area) has no idea what you’re talking about when you say “Rice”. But anyone you’re likely to want to work for? They’ll know.
+
+Everyone I know who has been through the program has pretty much the career and life they want. Some have taken very weird paths (from writing optimizing compilers to writing software to model and predict hardware failure in hyperscale datacenters is my fave “weird turn”) to get there, but they’re all happy.
+
+It’s also a small, small group - something like 4000 total people have graduate degrees in CS from Rice. The networking is good, and other alums are broadly helpful.
+
+As I was in the PhD program, IBM paid for very nearly my entire graduate career, including a very healthy annual stipend. I accumulated a total of $1500 in student loans over six years (and that only because the interest was lower on a student loan that it was on a loan from the credit union to buy a car). I’d say based on my income since that the ROI is near infinity…
+
+Note that the fifth year program, the Master of Computer Science, is not a research degree, is not subsidized, and while very highly regarded, is not the same as a research Masters or a PhD.
+
+Still, it’s all worthwhile.
+
+What is the purpose of receiving an education?
+
+Up until about a decade ago, education was the primary facilitator of social mobility. The American Dream wasn’t just about buying a house with a white picket fence, driving a Ford, and owning the newest appliances. It was about achieving those things no matter where you came from—if you were from a rich family, a poor family, an immigrant family, or if you were an orphan. Because, back then, getting a good education was a ticket into the middle class.
+
+Education was an accomplishment in itself—but more than that, it was a means to moving up in the world.
+
+But in the late 90s and certainly in the 2000s, the role education played in social mobility began to change—and by the 2010s, the idea of going to college had gone from being an accomplishment to a baseline expectation. More interestingly, data showed for the first time that more education didn’t lead to more social mobility. In fact, according to Pew Research Center, “Today’s young adults are much better educated than their grandparents. Among Millennials, around 4 in 10 (39%) of those ages 25 to 37 have a bachelor’s degree or higher, compared with just 15% of the Silent Generation, roughly a quarter of Baby Boomers, and 3 in 10 Gen-Xers (29%) when they were the same age.”
+
+In addition, “The share of young adults ages 18 to 24 currently employed (54%) has been at its lowest since the government began collecting employment data in 1948.” A study in 2010 by Pew Research Center showed that “the gap in employment between the young and all working-age adults is the widest in recorded history.”
+
+All of this is to say: the advancement of education for the sake of one’s own intellectual curiosity is fine. But the idea that continued education will lead to better job opportunities, a higher paying salary, and more social mobility, simply isn’t true anymore.
+
+And since, for the overwhelming majority of people, school is not for their own pursuit of knowledge but seen as a means to an end, decisions pertaining to higher education should be made accordingly—and intelligently.
+
+School is an investment—and should be treated like one.
+
+As of 2019, 69% of college students had taken out student loans, graduating with an average debt amount of $29,900.
+
+The choice to attend graduate school thereafter is essentially the decision to double-down on the same loss-making investment. Like a gambler chasing a loss, your actions are saying: “I’ve made an investment. It’s not working out the way I had hoped. The returns aren’t what I expected. But I’m going to double-down and buy more.”
+
+This is the precise moment debt begins to compound.
+
+What began as an investment in one’s future with the hopes of increasing their social standing, suddenly becomes a slippery slope of high interest rates, delayed payments, and in today’s economy, the unfortunate realization that the job you ended up with didn’t require you to go to graduate school at all.
+
+Of course, if you are an intellectual purist who truly believes in educational attainment for its own sake, that’s fine. However, the idea that everyone pursuing higher education ought to be doing so for no reason other than academic exploration is simply out of touch—and deeply elitist.
+
+So, if your goal is to move up in the world, what should you do instead?
+
+1. Let go of the outdated version of The American Dream.
+
+The job market today is not the same job market that existed thirty years ago.
+
+The reason the United States economy hasn’t yet moved up the value chain is because there is still the same general demand for jobs in manufacturing, retail, hospitality, etc. Yet, there’s an increased supply of “qualified candidates”—people with undergraduate and graduate degrees. With a surplus of supply, this causes droves of people to leave college only to end up unemployed or underemployed (i.e. working in jobs they could have gotten without a degree).
+
+The mistake people make is thinking they need to double-down on their investment in order to rationalize the sunken cost of their undergraduate degree. For example, they pursue their MBA or PhD as a means to work at a company like Google, only to graduate and realize there are dramatically more candidates with comparable skills and credentials than there are vacant positions. And in the end, they settle for a general sales job that could have been obtained simply by being resourceful.
+
+Formal education is not the only path up in society anymore.
+
+2. Be conscious about what you’re choosing to do and why.
+
+People want to earn a nice living, yet they end up making decisions based on status (or their perceptions thereof).
+
+An English major may decide to pursue a graduate degree because they believe their best path forward would be to work as a writer for The New York Times. Status, and the idea of working for a prestigious publishing company, is what is driving their decision—their increased investment in formal education and their increased debt.
+
+This is fine if you love what you’re studying and are hell-bent on working for The New York Times, but if your true goal is to just earn a living for yourself through writing, there are dozens of other options that do not require you to take on a lifetime of debt. You could hone your copywriting skills and join a high-growth startup. You could become a freelance writer and journalist for a handful of online publications—not just The New York Times. You could even apply your talents to other neglected industry segments and carve out a niche for yourself that doesn’t exist yet.
+
+None of these options are dependent upon you pursuing a graduate degree.
+
+Being conscious, and brutally honest about why you are pursuing higher education, is crucial to performing a risk/benefit analysis. It’s important to understand whether you are pursuing a graduate degree because your parents think you should, or because you believe this is the only path to “success.”
+
+3. Go where the demand is—not where the approval is.
+
+The world is one big economy, and economies reward people and businesses who “supply” the demand.
+
+I traveled to both Ukraine and Egypt in 2018, and I learned that a college graduate in the city of Kyiv makes approximately 500 euros a month. But a college graduate who was bilingual in Russian and Chinese could make eight times that. Why? Because for that particular skill, demand vastly exceeds supply.
+
+I witnessed the same thing in Cairo. I hired someone to be my driver while I was there, and he told me the average salary for a driver in Cairo was $300 per month. But previously, he had worked for a Japanese company whose general manager needed a driver, and he made $3,000 per month—ten times more—simply because he could also speak both Arabic and Japanese.
+
+The skills that are most valuable today are not the ones being churned out by large academic institutions. In fact, we could make the argument that if you are being taught and trained the same way as tens of thousands of other people, you are pigeon-holing yourself into a saturated job market before you’ve even left school.
+
+In the digital age, and the new creator economy, all the most valuable skills happen at unlikely intersections—the vast majority of which cannot be learned in a conventional classroom.
+
+So instead of doubling-down on your investment, taking on more debt, and signing yourself up for another 2-4 years of school, I encourage you to expand your lens. Nurture new skills on your own. And realize that the pathway to social mobility today has never been shorter, if only you can rid yourself of outdated thinking and take your education into your own hands.
+
+There is no better word than "magical" to describe my experience as an undergrad at Rice University. Indeed, Rice often invites comparisons with Hogwarts due to its Residential Colleges (much like being sorted into Hogwarts Houses), its students who take pride in being a little different, and perhaps even its campus (complete with a dungeon-like labyrinth of steam tunnels underneath the "castle" grounds). The magic I found there, though, is much deeper.
+
+Having grown up in the Washington DC area, I didn't know what to expect when I first visited Rice: dust, tumbleweeds, and saloons? Cowboys on horseback? I had never really been to Texas (state) before and my impressions were shaped by what I had seen in popular media. Imagine my surprise when I walked through the main entrance for the first time, canopied by beautiful live oaks, and discovered a lush, verdant campus with amazing Byzantine Architecture.
+
+
+It was a 300-acre oasis right in the heart of a thriving metropolis, just down the street from many of the world's most significant companies and just across the street from the world's largest medical center. Walking distance from Houston's Museum District (Houston neighborhood) and just a few hops on the light rail from the Theater District and all the major sports arenas, there was always so much going on. And yet the hedges around Rice's borders seemed to protect it magically from the frenetic energy that surrounded it. It was a place of tranquility, a place where I could see myself reading a book under a tree in the endless green space of quads, courtyards, and grounds.
+
+When I walked into the Computer Science building without an appointment, one of the faculty invited me into his office and chatted with me for some time about the curriculum, their goals for CS grads, and what life as a CS major would be like (more time in computer labs than reading books under trees!). I was surprised by this openness of faculty to engage with students - or even prospective students in my case - but the CS department wasn't unique. There was a friendliness about Rice that I just didn't find at any of the other schools I visited. I was hooked. After I received my acceptance letter I barely even glanced at the letters from the other schools to which I had applied.
+
+When I arrived on campus as a freshman, I quickly realized that most of the other students had been attracted to Rice for the same reasons - it was elite but not elitist. My classmates were absolutely brilliant in all sorts of ways but everyone was modest, open, and friendly. My residential college quickly became my home away from home as we all worked hard and played hard together.
+
+Academically, I found Rice really challenging. I double majored in computer science and electrical engineering so I was already taking a heavy work load - but then I would have been remiss not to take advantage of the amazing course offerings in the humanities, arts, and literature as well. It was a struggle to keep up with it all but I wasn't alone. Rice's achievement-oriented culture meant that many other students were also pushing the boundaries of what was reasonable. Rice let us do it, though, and we banded together to help each other out.
+
+As I labored through my classes, became involved in student government, started some clubs, and founded my first startup (and slept very little) over the course of my undergrad career, one thing that really stuck out to me was the Rice administration's trust and empowerment of its students. We were really treated like adults. Our classes were taught by faculty, not grad students, we worked on research directly with those faculty, and even dined and socialized together through the residential colleges - some faculty even lived with us on campus (our College Masters, like a Hogwarts Head of House). Students were entrusted to enforce the honor code, which added integrity to our degrees, and numerous times major problems or policy decisions were left to student leadership to solve.
+
+This trust and and responsibility made for a unique experiential development environment. I learned an incredible amount in my classes, of course, but my most valuable development happened outside of the classroom: relationships, leadership, teamwork, communication, organization, prioritization, and general find-a-way-to-make-something-happenness. I don't understand people like Peter Thiel (businessman) who argue for students to forego a college degree. I think they miss the point of the real value created during one's time at a university and I suspect that they didn't have a magical experience like this one.
+
+Now that it has been 15(!) years since I matriculated as a freshman at Rice, one thing is clear. The bond that was forged between so many smart, different, honest, humble students going through a unique development experience together lasts forever. I have lived around the world and every time I meet another Rice alum there is a warm glow and an instant desire to connect that stems from this bond.
+
+Many others could probably articulate it better (and more concisely) than I have, but I hope you can tell by now that the story of Rice is a love story for me - from falling in love with the campus during that first visit to falling in love with another student who would one day become my spouse, from developing a career in entrepreneurship that I love to being inspired by professors to devote my career to creating social - not just economic - good. So perhaps the comparisons between Rice and Hogwarts aren't that far off - after all, we learn in the Harry Potter (book series) that Love is the most powerful magic of all.
+
+They are going to be completely different experiences. Like orders of magnitude apart. And which one is “best” is incredibly subjective.
+
+Let’s look at UCB first. Their current stats, from By the Numbers is they have over 190 active faculty members, and in 2018 had over 3,000 undergrads in the degree program and graduated 943 in the 2017–18 year.
+
+So. Deep breath….
+
+Rice has under 4,000 total undergraduate population. As of October 2019, the last time I had this discussion, Rice had about 600 CS students. Rice has 38 teaching faculty. Some of them JUST teach - it’s a full time gig for them versus managing research and grad students. (see Faculty)
+
+There are two places these numbers are going to matter.
+
+First note just the gross size difference. Rice, in total, is only slightly larger than the CS cohort at UCB.
+
+Second, look at the student / faculty ratio. UCB: about 16:1. Rice: also about 16:1. Surprising, no? Shouldn’t be surprised - that’s a hard limit in educational efficiency. You can’t run too much “richer” than that and have decent economic performance and you can’t run too much “leaner” and have a good outcome.
+
+But the big difference is the number of programs. You can’t run a highly diverse set of research programs on 38 faculty (even counting the not-counted research-only faculty, it’s not a lot). There are probably a dozen very solid “programs” at Rice. There are probably closer to 60–70 at UCB.
+
+So: as an undergrad? You’re going to get about the same sort of educational experience at either place. If you’re top-10-percent at UCB, you’ll likely have an opportunity to get involved in research projects. At Rice, that’s probably move like top-third.
+
+The real issue is what’s the UNIVERSITY experience going to be.
+
+Rice spends a lot of time looking not just at your academic performance, but at what you as a person bring to the campus, to campus life. The administration has various groups that spend a lot of time thinking about the experience of being a student, and how to use that experience to help you maximize being the person you can become - on your terms.
+
+The “learning” part? You can get that anywhere. You can also get nearly all of that “nowhere” - via online resources.
+
+But that “being” part? That’s what you need to pay attention to.
+
+I know that I got a huge amount of value out of being on a small campus with a small cohort (my entering class was under 450), in an incredibly accelerated environment. My other choices were MIT and CalTech, the big schools weren’t even on my list.
+
+On the other hand, I have friends who went to some of the really, really big schools. It worked for them.
+
+By the time we all got to grad school, we’d “become”, and the undergrad portion that shaped us was ever present, but not nearly as front and center in our performance in grad school.
+
+But I guarantee you, it’ll be front and center in a whole bunch of stuff the rest of your life.

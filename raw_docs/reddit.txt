@@ -1,0 +1,60 @@
+Hi, I'm an incoming '26 freshman and I intend to major in CS. I currently have little to no programming experience, so would u mind giving me some advice on what to learn in the next few months before going to Rice so that I would do well in classes?
+I've been learning Python but does that help with classes like COMP 140, or should I enroll in online courses such as Harvard's CS50 to learn abt the fundamentals of CS?
+Echoing the enjoy your summer part- its a lot more interesting to take a class here in-person then to take online class even if its CS50, dont burn yourself out before arriving here!
+Would 140 & 182 be enough to survive a software engineering internship? Fortunately, I was able to receive a very generous opportunity at a top company without having go through an interview process (it is a scholarship + paid internship). At the moment, I have very little experience with coding. I know I will have mentors and other recipients to be with, but I want to be sure that I will be able to contribute and have a successful experience. I was also planning on attempting CS50 this summer, but I am not sure if it will help a lot and I don't know what to expect at my internship. I am currently a high school senior who will be attending Rice this fall, and the internship will be after my first year is over.
+Did you just say luay is a great prof lmao
+
+I did research with him and he’s great outside of class but I’ve had much better math professors than him. He’s not that good of a lecturer (I came in a math major and have taken a number of math classes, and 182 is effectively a math class).
+
+With you that 322 is a terrible class. So boring and pointless, I’m literally getting a better grade in 421 just because I care about 421 more haha.
+
++1 that Alan is super helpful. He and Rebecca should be promoted and given 50k raises
+Luay is a great prof. That is a subjective opinion that a good amount of us agree with.
+
+It makes total sense that some of us like some classes better and dislike some classes instead. It makes perfect sense that your performance will probably reflect your preference.
+
+I hear people complain about CS professor's lectures regularly- I can only hope that they never get a taste of what's going on in some of the stats classes...
+
+182 is effectively a math class
+
+I mean, if you want to get pedantic, all theoretical computer science is math, not to be confused with applied computer science (e.g. software design).
+
+In truth and practice, I'd wager that while some undergrad CS majors are interested in and appreciate the mathematical underpinnings of the field, most are primarily interested in application rather than theory, and most aren't going to evaluate the quality of a CS prof's lecture style through the lens of a math major.
+
+182 and Luay's lectures specifically are what made CS "click" for me. I'd be embarrassed to admit I almost failed 140 if it wasn't so long ago at this point (for reference, Rebecca and I were classmates). From what I remember, Luay was always a polarizing figure, and there was not broad consensus around his lecturing abilities.
+Hot take: the CS major is not that hard if you don’t procrastinate and pair your classes properly.
+
+If you don’t cheat your way through like half the people here, you’ll be doing projects quickly (because you attended class and office hours and thus know what you’re doing) and getting good grades.
+
+The exams are rough though no matter what.
+
+I’ve learned a lot and I thoroughly enjoyed most of the classes I’ve had. I’m actually really am having fun in Operating Systems right now.
+
+Rebecca = 🐐
+
+Also, we all get paid big bucks after graduation so that’s nice and well worth whatever perceived pain there is being a CS major
+Don’t know why people are downvoting this, he’s absolutely right
+
+I mean, I’m exaggerating slightly. Sometimes people do all the right things and classes are still hard. I get that.
+
+Mostly I’m saying that people make it unnecessarily hard on themselves (and it seems to be a uniquely CS problem. I know of no other major that cheats and procrastinates like we do)
+
+Yeah, I think the procrastination problem boil downs to how a lot of us prioritize internships/outside work and grades are a second priority.
+I don’t care about grades. But I’ve had 4 partners not do a single thing in 310. I did the whole design competition myself.
+
+And to top it off I had to do kernel alone. My partner didn’t attempt to do anything until a week ago and at that point I could write the code faster than the time it would take for him to understand what I wrote.
+
+Procrastination at the expense of others is a dick move that a disturbing amount of people are okay with
+Damn I am sorry that's happened to you.. good shit that you were able to get through those yourself despite all this
+oh noooo i've heard so much about kernel i can't imagine having to do it alone
+I started insanely early. It was released on February 17th and I was extremely consistent on working on it. I’ve been chillin for the last 2 weeks, the issue is that people don’t start it until after spring break is over and then get shocked that it’s a long project. I’ve been able to have a life, good sleep, all that, and enjoy beer bike week. Because I didn’t procrastinate lol
+
+Edit: Removed part about there being CS majors coming into Rice who have never coded before
+
+I feel especially at Rice though it is pretty easy to procrastinate. With the residential college system there's a lot of pressure for freshmen to be involved, and a lot of freshmen haven't learned to say no to things so the CS major can be pretty tough.
+
+I also feel like it's worth mentioning the intro math classes at Rice are unnecessarily hard. The textbooks used for intro math classes (Openstax) while free, are not good. Many math classes are taught by grad students at the intro level. This can be a turn-off for a lot of the STEM Majors at Rice, and many of my friends have recommended you take MATH 101, MATH 102, Multi, or other intro math classes at other schools. Of course if you are coming to Rice as a CS major with no AP math credit, you might have to take intro math courses here.
+
+I had never coded before coming here and there seems to be a lot of people in that boat surprisingly
+where you work now? considering rice for ed in cs and wondering if it is rigorous and if opportunities are good for student
+Graduated in 2013. Went into the CS program with very little programming background. Biggest recommendation I could give is to try to learn as much about development environments and tools and development best practices. None of these are really covered in the CS program but looking back having this knowledge would have made projects way easier to manage. Picked up a lot of this knowledge in the industry later and also really helped me click with a lot of the information I had been taught.

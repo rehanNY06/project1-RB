@@ -1,0 +1,72 @@
+I can give you a perspective about the department for undergraduates. I'm not sure how things are for graduate students.
+
+In short, Rice's Computer Science department is a hidden gem.
+
+The first year curriculum is quite different from a typical Computer Science program. It's designed to accommodate both students who began programming at an early age and those who have never programmed and want to major in Computer Science. COMP 140, COMP 182, COMP 215, and COMP 310 are all taught really well and are some of the most exhilarating courses I've taken at Rice.
+
+The knowledge imparted through the program is very theory intensive, and despite that you get a lot of programming practice through rigorous assignments. This leads to a ridiculous number of hours spent on the assignments and they begin to get extremely difficult towards the end of the semester. However, help is always there for those who seek it.
+
+Because of this rigor and strong theoretical foundation, CS graduates from Rice are great at picking up new knowledge and can rapidly learn new technologies and have a good sense of design in software engineering.
+
+Despite all of this, most of my colleagues and I have managed to have a very decent social life. Though there were times when I felt as if I barely slept.
+
+A good portion of our students work at top companies such as Google, Microsoft, Amazon, Facebook, etc.
+
+
+
+Let me start with a story.
+
+When I worked for Rice IT, one of the other student workers at the Help Desk, a TA for Algorithmic Thinking, was grading assignments aloud during down time. He mused, "The same mistake?" after marking down a few papers in a row for a less than optimal run time. Seconds later, "What the fuck! They implemented it straight from the library." In other words, code from libraries are already the fastest and most concise. He cursed, furiously bringing up the mistaken grading sheet.
+
+Only, as it happens, Prof. Rixner came up with his own implementation, more elegant than the publicly-sourced, official Python Library version. NBD.
+
+Rice had a major hit on Coursera this year in Intro to Interactive Programming with Python, one of our CS Intro classes. The shine that drew people, I think, was the learn-by-building-games approach and that Prof. Rixner built a Python IDE right into the browser (CodeSkulptor). If you've ever taken programming, you know the pains of setting up an IDE as a beginner.
+
+If you take the class at Rice, you'll pitch and design a game in the second half. This is a rare class where you'll leave with something to show, some creative output; I promise it will be a long time before you build something of your own in Physics or Math. A lot of my classmates left with pretty awesome arcade games, first semester of freshman year.
+
+That said, we don't have hotshot professors here. No Turing Awards at office hours. You won't read "truly remarkable things being done for the field" in the Times. And there certainly are departments in this country where every single professor there has some small claim to this hotshottedness. You won't miss out on creative output either (Berkeley's SaaS course assigns teams to build for non-profit groups, for instance; MIT's toy lab too). Cal has three EECS buildings; we kinda have a collection of hallways in Duncan Hall. Stanford has the Gates Computer Science Building; we don't even have a CS lounge. We have fewer CS clubs and teams, and a lot fewer awards.
+
+Maybe you'll come to Rice because the world is big and life is short. But don't come just because you're attracted to a vision of smaller class sizes and approachable professors. Rice CS just redid its entire undergrad curriculum. It may very well someday be strong, and I am sure the professors have desire for good teaching in their hearts. Rice is throwing itself into the new MOOC culture, and if you matriculate in the near future, there's a good chance of professors piloting Coursera and EdX course's on you.
+
+If Rice is one of your choices because you're afraid you wouldn't get to work with the professors at the big, bad schools anyway, let me tell you this. You are good enough. You can go. And excel. And catch the attention of that professor you want to work with.
+
+And if it so happens they won't take you and Rice does, or if you're already here, you'll know that, in every way that matters, you're not settling for less.
+
+P.S. CS, and every department at Rice, has some connection with medicine, probably because the massive Texas Medical Center next door. There is something to be said about Rice having one of the fastest supercomputers, but it's being used to study diseases at the BRC. If you're interested specifically in using CS in medicine, Rice's position, I think, is pretty unique.
+
+It depends on your measure of "goodness": Do you think a department is good because it has Turing award winners or because of diversity in courses or larger/smaller student body or on-campus jobs available to undergrads/Masters/PhD or something else ? This measure also differs based on whether you are talking to a undergrad (see Waseem's answer) or doing your Masters or a graduate student (that's me), as each of them have different expectation from the department.
+
+So as to not misrepresent Rice's student body, I will give an answer to a different question: "What is a typical PhD student's perspective of Rice University's Computer Science department ?" ... and let you infer the answer to above mentioned question :-P
+
+- I only came to Rice University because my advisor moved here, but in hindsight I couldn't have taken a better decision :-)
+- Rice admin staff and then chair were very accommodating (and still are) with the transition process and helped me a lot with waiving few of the requirements. Why am I pointing this out ? Well, in some public universities where number of enrolled students is very large, the sheer volume of paperwork/cases sometimes makes admin staff pretty unaccommodating and sometimes rude.
+- Big shots ... sure, they are good for publicity, but what really matters to a graduate student is the faculty's publication record and also whether they are still publishing in top-tier journals/conferences ... Why ? We need to graduate in 5-6 years and get a job ;-) ... Btw, if you think Turing awards makes one a big shot, I suspect Moshe will get one in recent future :-)
+- I agree that there are fewer clubs and the current chair (along with few enthusiastic students) is trying to address that. So, as far as graduate students are concerned, there are relatively fewer opportunities to socialize ... though friday night gatherings at on-campus student-run pub Valhalla (which serves cheap beers) does help ;-)
+- Some classes are small, while others are quite big ... it depends on popularity and also type of the course (seminar oriented, coding intensive, theory intensive, introductory or advanced) ... so class size should not really be a motivating factor to chose Rice (at least not for a graduate student). That said, it is important to point out that among (very selected) courses that I took, I found the professors pretty approachable and helpful.
+- Based on casual discussions with other graduate students, most of them seem pretty happy with their advisors (with issues like micro-managing, choice of problems, rapport, etc).
+- Funding situation is pretty good compared to other universities. Also, offices with 3 students per room are assigned to graduate students, which helps if you need peace and quiet while working ... some may like it, others may prefer a "big" lab-like environment.
+- There is lot of buzz going on in entrepreneurship at Rice for last few years. MBA-school is offering pretty good course on it, plus there are events like 3-day startup which are useful to both undergrads and grads. Rice OTT is also pretty helpful in this area.
+
+Since Rice has smaller department, on an average, there are 2-3 professors per research area. Some research areas have just one. So, here is my suggestion for prospective graduate students: Do little bit of homework before applying here. If you are somewhat sure about which area you want to work in and if you like the publication record of the "prospective" advisor in that area, then and then only apply here. If you are totally clueless, you may either hit a gold mine and find a right advisor or you may end up settling (or changing the university).
+
+There are many good reasons :-) Here were some of mine:
+
+1. When I visited Rice, my Dad asked one of the students something like "I hear all schools these days have grade inflation. Is that true at Rice?" And the response from random student working at the library was "Rice sets a high bar, but everyone helps each other get over that bar." This was so true in my experience -- my classes in ECE were challenging, collaborative and rewarding.
+
+2. Ability to find mentors through the college system. I am now at a large state school, for grad school and I cannot believe how lucky I was to be to count top professors as my confidants and (dare I say) friends in college. Rice has the college system which means each student belongs to a "house" with specific masters (who are professors), RAs (who are affiliated with the university, but are not professors), and associates (again -- professors and university affiliates) who participate in college events. When I was making important life decisions, I was able to talk directly with professors who I had a strong relationship with.
+
+3. Ability to find mentors through small classes. I was an engineering student. After my freshman classes, all professors knew my name (and the names of my peers). In grad school, my classes are bigger than the classes I had at Rice.
+
+4. Quirky, social, interesting people. During my visit day, I found that all the people I spoke with were people I would want to be friends with. When I went to Rice I was not disappointed. Because of the college system, I am good friends with people with a variety of majors and interests. Not true for some of my friends who went to larger state schools.
+
+5. Easy to do research. Again, speaking from an ECE perspective. It just took a few emails my sophomore year, and I was able to start working in a lab on science I thought was really cool! When I wanted to try something different my senior year, again, it just took a few quick emails.
+
+6. Houston. I live in a perhaps more "desirable" location now, but Rice tries to bring out the cool in Houston. They frequently have free passes to the opera, ballet and symphony which I took advantage of and sorely miss :( There are also lots of great restaurants, lots of bands come through, and Houston is a drive away from some of the more "fun" TX cities (e.g., Austin). Also, Houston is hell in August/September, but October through mid April, the weather is usually quite nice, so don't let the heat scare you ;)
+
+7. If you are interested in medicine, Rice (from what I know from having pre-med friends) is a great place to be. Rice consistently gets students into top med programs, and since it is across from the largest med center in the world, there are lots of opportunities to get involved.
+
+8. Finally, Rice is a top university and you will get a great education there. I found the courses challenging, but I found that the professors really cared that I learned.
+
+I could go on and on... Rice was a truly fabulous place for me to grow and learn. If you attend there, I hope you find the same. If not, I hope you find the same somewhere else.
+
+Thats easy to answer. The people. Rice has the most dedicated, caring, well-educated and interesting faculty, staff and students you will ever meet. They're fun to be around, smart without being snobbish, a little crazy, no make that at least medium crazy, but hardworking and willing to lend a hand to anybody who needs help. Two days after Harvey hit, the admin office had more offers from alumni for places for faculty, staff and the few students who had water damage to stay than they had people who needed a place to stay. That was even before the rain stopped and before the admin office had a hotline set up. Rice is a big, sometimes rowdy, but always caring family. Go for the top-notch education and fall in love with the people.
