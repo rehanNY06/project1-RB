@@ -37,15 +37,44 @@ TOP_K           = 4
 # Load embedding model and ChromaDB collection once at startup
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Startup validation — fail fast with clear error messages
+# ---------------------------------------------------------------------------
+
+if not GROQ_API_KEY:
+    raise EnvironmentError(
+        "GROQ_API_KEY not found in .env — get a free key at https://console.groq.com "
+        "and add GROQ_API_KEY=your_key_here to your .env file."
+    )
+
 print("[STARTUP] Loading embedding model...")
-embed_model = SentenceTransformer(EMBEDDING_MODEL)
+try:
+    embed_model = SentenceTransformer(EMBEDDING_MODEL)
+except Exception as e:
+    raise RuntimeError(
+        f"Failed to load embedding model '{EMBEDDING_MODEL}'. "
+        f"Run: pip install sentence-transformers\nOriginal error: {e}"
+    )
 
 print("[STARTUP] Connecting to ChromaDB...")
-chroma_client = chromadb.PersistentClient(path=CHROMA_DIR)
-collection = chroma_client.get_collection(name=COLLECTION_NAME)
+try:
+    chroma_client = chromadb.PersistentClient(path=CHROMA_DIR)
+    collection = chroma_client.get_collection(name=COLLECTION_NAME)
+except Exception as e:
+    raise RuntimeError(
+        f"Failed to connect to ChromaDB at '{CHROMA_DIR}'. "
+        f"Make sure you have run embed_and_retrieve.py first to build the collection.\n"
+        f"Original error: {e}"
+    )
 
 print("[STARTUP] Initializing Groq client...")
-groq_client = Groq(api_key=GROQ_API_KEY)
+try:
+    groq_client = Groq(api_key=GROQ_API_KEY)
+except Exception as e:
+    raise RuntimeError(
+        f"Failed to initialize Groq client. Check your GROQ_API_KEY in .env.\n"
+        f"Original error: {e}"
+    )
 
 print("[STARTUP] Ready.\n")
 
@@ -56,13 +85,21 @@ print("[STARTUP] Ready.\n")
 
 def retrieve(query: str, top_k: int = TOP_K) -> list[dict]:
     """Embed query and return top-k most relevant chunks with metadata."""
-    query_embedding = embed_model.encode([query]).tolist()
+    try:
+        query_embedding = embed_model.encode([query]).tolist()
+        results = collection.query(
+            query_embeddings=query_embedding,
+            n_results=top_k,
+            include=["documents", "metadatas", "distances"],
+        )
+    except Exception as e:
+        print(f"[ERROR] Retrieval failed: {e}")
+        return []
 
-    results = collection.query(
-        query_embeddings=query_embedding,
-        n_results=top_k,
-        include=["documents", "metadatas", "distances"],
-    )
+    # Validate that results have the expected structure
+    if not results.get("documents") or not results["documents"][0]:
+        print("[WARN] ChromaDB returned empty results for this query.")
+        return []
 
     hits = []
     for doc, meta, dist in zip(
@@ -72,8 +109,8 @@ def retrieve(query: str, top_k: int = TOP_K) -> list[dict]:
     ):
         hits.append({
             "text":        doc,
-            "source_name": meta["source_name"],
-            "filename":    meta["filename"],
+            "source_name": meta.get("source_name", "Unknown"),
+            "filename":    meta.get("filename", "Unknown"),
             "distance":    round(dist, 4),
         })
     return hits
@@ -94,16 +131,13 @@ CRITICAL RULES — you must follow these exactly:
    available student reviews and sources."
 4. Be specific and quote or closely paraphrase the context when possible.
 5. Do NOT make up professor names, ratings, policies, or contact details.
-6. When citing a source, use the source name given in brackets (e.g. 
-   "RateMyProfessors", "Reddit", "Quora – Worth it") — never say 
-   "Document 1" or "Document 2".
 """
 
 def build_context_block(hits: list[dict]) -> str:
     """Format retrieved chunks into a numbered context block for the prompt."""
     lines = []
     for i, hit in enumerate(hits, 1):
-        lines.append(f"[Source: {hit['source_name']}]")
+        lines.append(f"[Document {i} — Source: {hit['source_name']}]")
         lines.append(hit["text"])
         lines.append("")
     return "\n".join(lines)
@@ -166,10 +200,22 @@ def ask(question: str) -> dict:
     if not question.strip():
         return {"answer": "Please enter a question.", "sources": []}
 
-    hits    = retrieve(question, TOP_K)
-    answer  = generate_answer(question, hits)
-    sources = format_sources(hits)
+    hits = retrieve(question, TOP_K)
+    if not hits:
+        return {
+            "answer": "Retrieval failed — no chunks returned. Check that ChromaDB is populated.",
+            "sources": []
+        }
 
+    try:
+        answer = generate_answer(question, hits)
+    except Exception as e:
+        return {
+            "answer": f"Generation failed: {e}\nCheck your GROQ_API_KEY and network connection.",
+            "sources": format_sources(hits)
+        }
+
+    sources = format_sources(hits)
     return {"answer": answer, "sources": sources}
 
 

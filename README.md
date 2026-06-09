@@ -56,6 +56,39 @@ The domain that I chose is "reviews of CS department at Rice University". This k
 Majority of my documents were forum posts that had at most 1-3 paragraphs from each review. A 300 token chunk was more than sufficient enough to be able to capture a complete thought without opinions from the other people merging in. The overlap of only 30 tokens is there mainly for the purpose of capturing any review that carries over the initial chunk boundary; ensuring that no key detail is lost. Before chunking, each document had to be cleaned to remove HTML entities & JSON garbage like "Thumbs up" or "&amp". Minimizing as much noise as possible along the way.
 **Final chunk count:**
 87 chunks
+
+**Sample Chunks:**
+
+**Chunk 1 — RateMyProfessors**
+"The professor could not solve the problem he brought to class. This shows how 
+indifferent he is toward the class. Quality 1.0 Difficulty 3.0 COMP140 The way 
+he teaches seems optimized for his own convenience with zero consideration for 
+the students."
+
+**Chunk 2 — Reddit**
+"182 and Luay's lectures specifically are what made CS click for me. I'd be 
+embarrassed to admit I almost failed 140 if it wasn't so long ago. From what I 
+remember, Luay was always a polarizing figure, and there was not broad consensus 
+around his lecturing abilities."
+
+**Chunk 3 — Quora – Prof recs**
+"Rice is one of the few colleges that have actual professors rather than grad 
+students teaching introductory classes. The professors are readily available for 
+questions during office hours. Students often form study groups of 5 to 10 
+students to go over the lectures and compare notes."
+
+**Chunk 4 — Quora – Worth it**
+"The Rice CS department is very highly rated — top 20. The faculty are excellent 
+but it's a small department. Everyone I know who has been through the program has 
+pretty much the career and life they want. I'd say based on my income since that 
+the ROI is near infinity."
+
+**Chunk 5 — LinkedIn – RiceCS**
+"Rice University Computer Science researchers made it work and tested it on real 
+IBM quantum hardware. Robots that help in surgery, respond in emergencies and make 
+daily life easier. The researchers at Rice University Computer Science are building 
+it now, with NASA 30 miles away and the Texas Medical Center right next door."
+
 ---
 
 ## Embedding Model
@@ -85,6 +118,35 @@ After researching more options, the current model that I've used has a limit of 
 The LLM contained instructions that were enforced at every question. The key instructions were "Answer ONLY using the information provided in the context documents below. Do NOT use any outside knowledge, even if you think it is correct. If the context does not contain enough information to answer the question, respond with exactly: 'I don't have enough information on that based on the available student reviews and sources." Temperature was also set to 0.2 to ensure the model didn't give generalized responses. The retrieved chunks were passed in a labeled context block above the question, formatted as [Source:  RateMyProfessors], [Source: Reddit], etc., so the model could reference them by name rather than by number.
 **How source attribution is surfaced in the response:**
 After generation, the retrieve() function returns metadata for every chunk it pulled. These are formatted into a separate "Retrieved from" box in the Gradio UI automatically,  so even if the LLM fails to cite a source in its answer, the user still  sees exactly which documents were used and how closely they matched the query.
+
+## Example Grounded Responses
+
+**Example 1 — Accurate, well-grounded response**
+
+Query: "Who is the department chair of the CS department and their contact information?"
+
+System response: "The department chair of the CS department is Christopher M. 
+Jermaine, and his contact information is christopher.m.jermaine@rice.edu."
+
+Retrieved from:
+- About the Degree (distance: 0.72)
+- GradCafe – PhD (distance: 0.67)
+- Quora – Why attend (distance: 0.68)
+- GradCafe – PhD (distance: 0.71)
+
+**Example 2 — Correct refusal, grounding enforced**
+
+Query: "What's the most recent workshop they've held for students?"
+
+System response: "I don't have enough information on that based on the available 
+student reviews and sources."
+
+Retrieved from:
+- GradCafe – PhD (distance: 0.81)
+- Quora – Why attend (distance: 0.83)
+- About the Degree (distance: 0.84)
+- Reddit (distance: 0.85)
+
 ---
 
 ## Evaluation Report
@@ -103,6 +165,35 @@ After generation, the retrieve() function returns metadata for every chunk it pu
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
+
+## Retrieved Chunks Per Query
+
+**Query 1 — Is Devika Subramanian a decent professor for my first semester?**
+- Rank 1 (distance 0.47, RateMyProfessors): General professor review discussing approachability — partially relevant, mentions professor personality but not Subramanian directly.
+- Rank 2 (distance 0.48, RateMyProfessors): Review of a different professor — loosely relevant as context for what a bad professor looks like.
+- Rank 3 (distance 0.48, RateMyProfessors): Direct review of Subramanian — highly relevant, describes her as friendly, patient, and a great teacher.
+- Rank 4 (distance 0.49, RateMyProfessors): Another professor review — partially relevant as general Rice CS professor context.
+
+**Query 2 — Is there grade inflation within Rice at all?**
+- Rank 1 (distance 0.56, Quora – Prof recs): Discusses academic accommodations at Rice — loosely relevant.
+- Rank 2 (distance 0.57, Quora – Prof recs): Discusses Rice's reputation generally — loosely relevant.
+- Rank 3 (distance 0.58, AcademicJobs): Overview of RateMyProfessor at Rice — off-topic.
+- Rank 4 (distance 0.58, Quora – Why attend): Discusses department clubs and socializing — off-topic.
+
+**Query 3 — Who is the department chair?**
+- Rank 1 (distance 0.67, GradCafe): PhD application forum — off-topic.
+- Rank 2 (distance 0.68, Quora – Why attend): Department quality discussion — loosely relevant.
+- Rank 3 (distance 0.71, GradCafe): PhD program discussion — off-topic.
+- Rank 4 (distance 0.72, About the Degree): Contains Christopher M. Jermaine's name, title, and email — directly relevant, correct answer found despite weak distance score.
+
+**Query 4 — What's the most recent workshop?**
+- All 4 retrieved chunks had distance scores above 0.70 and came from GradCafe and Quora — entirely off-topic. The Facebook source containing the workshop information was not represented in any retrieved chunk because the post content was not captured during ingestion.
+
+**Query 5 — Is Rice CS worth it for grad school?**
+- Rank 1 (distance 0.31, Quora – Worth it): Alumni describing career outcomes and ROI — directly relevant.
+- Rank 2 (distance 0.33, Quora – Why attend): Students at top companies like Google and Microsoft — directly relevant.
+- Rank 3 (distance 0.38, Quora – Worth it): PhD funding and stipend details — relevant.
+- Rank 4 (distance 0.41, GradCafe): PhD application discussion — partially relevant.
 
 ---
 

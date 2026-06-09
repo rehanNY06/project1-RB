@@ -240,11 +240,17 @@ def run_pipeline():
     print("\n[STAGE 3] Chunking")
     all_chunks: list[Chunk] = []
     chunk_counter = 0
+    low_chunk_sources = []   # observability: track sources with suspiciously few chunks
 
     for d in cleaned_docs:
         tokens  = tokenize(d["cleaned_text"])
         windows = chunk_tokens(tokens, CHUNK_SIZE, OVERLAP)
-        print(f"  {d['source']['name']}: {len(tokens)} tokens → {len(windows)} chunks")
+        chunk_count = len(windows)
+        print(f"  {d['source']['name']}: {len(tokens)} tokens → {chunk_count} chunks")
+
+        # Flag sources that produced very few chunks — likely incomplete ingestion
+        if chunk_count <= 2:
+            low_chunk_sources.append((d["source"]["name"], d["source"]["file"], chunk_count))
 
         for window_text in windows:
             chunk_counter += 1
@@ -256,6 +262,14 @@ def run_pipeline():
                 text        = window_text,
                 token_count = len(window_text.split()),
             ))
+
+    # Pipeline observability report
+    if low_chunk_sources:
+        print("\n  [WARN] The following sources produced 2 or fewer chunks.")
+        print("         This likely means the .txt file is incomplete or nearly empty.")
+        print("         Queries relying on these sources will probably fail retrieval:")
+        for name, filename, count in low_chunk_sources:
+            print(f"         - {name} ({filename}): {count} chunk(s)")
 
     # --- Print 5 representative chunks for inspection ---
     print("\n" + "=" * 60)
